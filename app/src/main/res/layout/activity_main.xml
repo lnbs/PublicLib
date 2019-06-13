@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
     tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <com.dyd.libsource.dropdownbox.MySpinner
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:id="@+id/spinner"
+        android:layout_width="150dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/et_login_bg"
+        android:textSize="12sp"
+        app:sp_background_color="@color/colorAccent"
+        app:sp_popupwindow_height="wrap_content"
+        app:sp_popupwindow_maxheight="200dp"
+        app:sp_text_color="@color/colorPrimary"
+        app:sp_arrow_color="@android:color/black"
+        app:sp_item_text_color="@android:color/holo_blue_dark"
+        />
 </android.support.constraint.ConstraintLayout>

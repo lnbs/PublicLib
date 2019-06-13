@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="MySpinner" tools:ignore="ResourceName">
+        <attr name="sp_arrow_color" format="color" />
+        <attr name="sp_hide_arrow" format="boolean" />
+        <attr name="sp_background_color" format="color"/><!--popwindow背景色-->
+        <attr name="sp_text_color" format="color" /><!--下拉框字体颜色-->
+        <attr name="sp_item_text_color" format="color" /><!--下拉框条目字体颜色-->
+        <attr name="sp_background_selector" format="color"/><!--spinner的item设置最底层的颜色（一般会被表层颜色覆盖，效果不大）-->
+        <attr name="sp_popupwindow_maxheight" format="dimension"/> <!--spinner下拉框最高高度-->
+        <attr name="sp_popupwindow_height" format="dimension"><!--spinner下拉框高度,list高度不够，默认伸展长度-->
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+    </declare-styleable>
+</resources>

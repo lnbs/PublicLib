@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sp_padding_left">10dp</dimen><!--布局-->
+    <dimen name="sp_padding_right">10dp</dimen><!--布局-->
+    <dimen name="sp_item_height">31dp</dimen> <!--item的高度-->
+    <dimen name="sp_item_padding_left">10dp</dimen><!--item-->
+</resources>
